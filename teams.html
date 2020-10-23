@@ -1,0 +1,1005 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+	<div class="carda">
+		<div class="main-content">
+			<img src="https://picsum.photos/id/142/400/500">
+		</div>
+		<div class="overlay-content">
+			<p>
+				"All loves are not fake."    -<span><i>Anonymous</i></span>
+			</p>
+		</div>
+	</div>
+</body>
+</html> -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0", user-scalable="no">
+    <META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE">
+    <title>Spectrum</title>
+    <link rel="icon" href="assets/tablogo.png">
+    <!----------------Font Styles--------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./css/glider.css" />
+
+    <!----------------AOS------------------>
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+
+    <!-----------------------------CSS FILES------------------>
+    <link rel="stylesheet" href="./css/main.css?v=4">
+    <link rel="stylesheet" type="text/css" href="./css/teams.css">
+
+
+    <!-- ---------------------------------------BOOTSTRAP----------------------------- -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Bootstrap    CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+
+    <!-- Modal -->
+    <script>
+		$(document).ready(function(){
+			$("#myModal").modal('show');
+		});
+	</script>
+
+</head>
+
+<body>
+
+    <!-- -----------------------------------------------------ICON BAR----------------------------- -->
+    <div class="icon-bar">
+        <a href="https://www.facebook.com/spCETrum"><i class="fab fa-facebook-f text-white"></i></a>
+        <a href="https://github.com/Spectrum-CETB"><i class="fab fa-github text-white"></i></a>
+        <a href="https://www.linkedin.com/in/spectrum-cet-3b71431b1/"><i class="fab fa-linkedin-in text-white"></i></a>
+        <a href="https://www.instagram.com/spectrum.cetb/?hl=en"><i class="fab fa-instagram text-white"></i></a>
+    </div>
+
+
+
+    <!-- ----------------------------  Navigation ---------------------------------------------- -->
+    <div class="banner" id="home">
+        <header>
+            <a href="#" class="logo">
+                <img src="./assets/mozclub logo.png" style="width:40px">
+                Spectrum
+            </a>
+            <div class="toggle-collapse">
+                <div id="myNav" class="overlay">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <div class="overlay-content">
+                        <a href="#home">Home</a>
+                        <a href="#about">About Us</a>
+                        <a href="./mozilla-campus-club">Mozilla Campus Club</a>
+                        <a href="./spectrum-internship-drive/internship_2019-20">Spectrum Internship Drive 2019-20</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSci42rOTPspfscc3rZtMM9HrJ8OkuIOhTB87auu0fcHIJ0s0w/viewform?usp=sf_link">Circuits and VLSI <blink><span style="background-color:red;color:white;border-radius:10%;font-size:0.5em;">new</span></blink></a>
+                        <a href="projects.html">Projects</a>
+                        <a href="#team">Team</a>
+                        
+
+                    </div>
+                </div>
+
+                <div class="toggle-icons" onclick="openNav()">
+                    <i class="fas fa-bars"></i>
+                </div>
+
+
+                <script>
+
+                    function openNav() {
+                        document.getElementById("myNav")
+                            .style.height = "100%";
+                    }
+
+                    function closeNav() {
+                        document.getElementById("myNav")
+                            .style.height = "0%";
+                    }
+
+                </script>
+
+            </div>
+
+            <div class="mid-nav">
+                <ul class="nav-items">
+                    <!-- <li class="nav-link current">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#about">About Us</a>
+                    </li>
+
+                    <li class="nav-link">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="#team">Team</a>
+                    </li> -->
+                    <!-- <li class="nav-link">
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSci42rOTPspfscc3rZtMM9HrJ8OkuIOhTB87auu0fcHIJ0s0w/viewform?usp=sf_link">Circuits and VLSI <blink><span style="background-color:red;color:white;border-radius:10%;">new</span></blink></a>
+                    </li> -->
+                    <li class="nav-link">
+                        <a href="./mozilla-campus-club/">Mozilla Campus Club</a>
+                    </li>
+                    <li class="nav-link">
+                        <a href="./spectrum-internship-drive/internship_2019-20/">Spectrum Internship Drive 2019</a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+    </div>
+
+
+    <div class="heading">
+		<h1 class="header"><i>Our Team</i></h1>
+	</div>
+	<div class="para">
+		<p >
+			<i>"Alone  we  can  do  so  little,  Together  we  can  do  so  much."</i>
+		</p>
+	</div>
+
+
+
+    <!-- <div class="carda">
+		<div class="main-content">
+			<img src="https://picsum.photos/id/142/400/500">
+		</div>
+		<div class="overlay-content">
+			<p>
+				"All loves are not fake."    -<span><i>Anonymous</i></span>
+			</p>
+		</div>
+	</div> -->
+
+	<div class="bodai" style="background-color: #3d465c;">
+		<div class="container" style="padding-top: 40px;">
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/soumya.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Soumya Ranjan Mohanty</p>
+							<p class="role">Convenor</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/pritish.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Pritish Roshan Ray</p>
+							<p class="role">Coordinator</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/deepak.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Deepak Kumar Prusty</p>
+							<p class="role">Coordinator</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/shubam.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Subhampreet Mohanty</p>
+							<p class="role">Software lead</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div><!--row-->
+		</div><!--container-->
+
+
+		<div class="container" style="margin-top: 20px;">
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/kshitij.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">kshitij Srivastava</p>
+							<p class="role">Design Lead</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/Sanjana.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Sanjana Mohapatra</p>
+							<p class="role">Alumni Representative</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/suchi.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Suchismita Swain</p>
+							<p class="role">EA Representative</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/ajay.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Ajay Patra</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div><!--row-->
+		</div><!--container-->
+
+
+		<div class="container" style="margin-top: 20px;">
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/trideep.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Trideep Barik</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/rupesh.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Rupesh Chandra Mohanty</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/suryansu.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Suryanshu Dash</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/abhishek.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Abhishek Kumar</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div><!--row-->
+		</div><!--container-->
+
+
+
+		<div class="container" style="margin-top: 20px;">
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/asish.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Ashish Panda</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/gunjan.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Gunjan Giri</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/deba.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Debaditya Mohanty</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/swastikkhuntia.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Swastik Khuntia</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div><!--row-->
+		</div><!--container-->
+
+
+
+		<div class="container" style="margin-top: 20px;">
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/asutosh.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">asutosh Mohanty</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/sobhitp.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Sobhit Panda</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/Satyam.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Satyam Mishra</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/Prajojita.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Prajojita Nayak</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div><!--row-->
+		</div><!--container-->
+
+
+
+		<div class="container" style="margin-top: 20px;">
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/anisha.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Anisha Biswal</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/sammy.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Samishya Panda</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/soumyapriya.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Soumyashree Priyambada</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/Silla.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Silla Priyadarshni</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div><!--row-->
+		</div><!--container-->
+
+
+
+		<div class="container" style="margin-top: 20px;">
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/Saheen.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Saheen Jasmine</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/Jogesh.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Jogesh Mishra</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/Siddhant.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Siddhant Patro</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/Sambit.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Sambit Swain</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div><!--row-->
+		</div><!--container-->
+
+
+
+
+
+		<div class="container" style="margin-top: 20px; padding-bottom: 100px;">
+			<div class="row">
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/Susanjeet.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Susanjeet Priyadarshi</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/Suvam.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Suvam Pattnayak</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/Swapnil.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Swapnil Nayak</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-xs-12 col-sm-6 col-lg-3">
+					<div class="carda">
+						<div class="main-content">
+							<img src="./assets/Animesh.jpg" alt="Avatar" class="team-image">
+						</div>
+						<div class="overlay-content">
+							<p class="name">Animesh Nanda</p>
+							<p class="role">Member</p>
+							<p class="social-media-links">
+								<i class="fab fa-github text-black mr-3"></i>
+								<i class="fab fa-facebook-f text-black mr-3"></i>
+								<i class="fab fa-linkedin-in text-black mr-3"></i>
+								<i class="fab fa-instagram text-black"></i>
+							</p>
+						</div>
+					</div>
+				</div>
+
+			</div><!--row-->
+		</div><!--container-->
+	</div><!--boda-->
+
+
+
+
+
+    
+
+    <!-- ---------------------------------------------FOOTER----------- -->
+    <footer class="page-footer bg-dark" id="contact">
+        <div class="tab">
+            <div class="container">
+                <div class="row py-4 d-flex align-items-center">
+                    <div class="col-md-12 text-center">
+                        <a href="https://www.facebook.com/spCETrum"><i class="fab fa-facebook-f text-white mr-3"></i></a>
+                        <a href="https://github.com/Spectrum-CETB"><i class="fab fa-github text-white mr-3"></i></a>
+                        <a href="https://www.linkedin.com/in/spectrum-cet-3b71431b1/"><i class="fab fa-linkedin-in text-white mr-3"></i></a>
+                        <a href="https://www.instagram.com/spectrum.cetb/?hl=en"><i class="fab fa-instagram text-white"></i></a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container text-center text-md-left mt-5">
+            <div class="row">
+                <div class="first-row col-md-3 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">SPECTRUM</h6>
+                    <hr class=" mb-2 mt-0 d-inline-block mx-auto" style="width: 125px; height: 2px">
+                    <p class="mt-2"><b>SPECTRUM</b> a place for all technical
+                enthusiasts to learn, discover and innovate new things in the field of Technology and Design. </p>
+                </div>
+
+                <div class="col-md-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">WINGS</h6>
+                    <hr class=" mb-2 mt-0 d-inline-block mx-auto" style="width: 85px; height: 2px">
+                    <ul class="list-unstyled">
+                        <li class="my-2">HARDWARE</li>
+                        <li class="my-2">SOFTWARE</li>
+                        <li class="my-2">DESIGN</li>
+
+                    </ul>
+                </div>
+
+                <div class="col-md-2 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">USEFUL LINKS</h6>
+                    <hr class=" mb-2 mt-0 d-inline-block mx-auto" style="width: 110px; height: 2px">
+
+                    <ul class="list-unstyled">
+                        <li class="my-2"><a href="#">HOME</a></li>
+                        <li class="my-2"><a href="#">ABOUT US</a></li>
+                        <li class="my-2"><a href="#">PROJECTS</a></li>
+                        <li class="my-2"><a href="#">BLOGS</a></li>
+                        <li class="my-2"><a href="#">FAQ</a></li>
+
+
+                    </ul>
+                </div>
+
+                <div class="fourth-row col-md-3 mx-auto mb-4">
+                    <h6 class="text-uppercase font-weight-bold">CONTACTS</h6>
+                    <hr class=" mb-2 mt-0 d-inline-block mx-auto" style="width: 110px; height: 2px">
+
+                    <ul class="list-unstyled">
+                        <li class="my-2"><i class="fas fa-home"> College Of Engineering And Technology, Ghatikia,
+                                Bhubaneswar - 751003</i></li>
+                        <li class="my-2"><a href="mailto:spectrumcet@gmail.com"><i class="fas fa-envelope"> spectrumcet@gmail.com</i></a></li>
+                        <li class="my-2"><a href="tel:+91-9999999999"><i class="fas fa-phone"> +91-9999999999</i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-copyright text-center py-3">
+            <p>&copy;
+                <a href="#">spectrumcet.com</a>
+            </p>
+            <p><a href="web team spectrum/index.html">Designed By Web-Team Spectrum</a></p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-------------------------------------JS FILES------------------------->
+    <script src="./js/observers.js"></script>
+    <script src="./js/team.js"></script>
+    <script src="./js/glider.js"></script>
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+
+    <script>
+        AOS.init();
+    </script>
+
+
+
+    <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "See All"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "See less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
+        <script type="text/javascript">
+            setTimeout(function(){
+              $('.load-wrapper').fadeToggle();
+            },8000);
+        </script>
+
+
+    <!-- -------------------------------------BOOTSTRAP------------- -->
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap    JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <!-- MDB    JavaScript -->
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
+
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
