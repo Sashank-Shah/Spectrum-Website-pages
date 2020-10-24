@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+.header{
+	background: linear-gradient(135deg, rgb(252, 212, 36) 0%, rgb(156, 13, 3) 100%) center no-repeat fixed;
+	color: white;
+	text-align: center;
+	font-style: oblique;
+	font-weight: 400;
+	font-size: 5vw;
+	margin: 0;
+	margin-top: 5%;
+	padding: 10px;
+		}
+
+.para{
+	background-color: rgb(0, 0, 0);
+	height: auto;
+	color: white;
+	padding: 20px 20px;
+	margin: 0px 0px;
+}
+
+.para p{
+	color: white;
+	font-size: 3vw;
+	font-weight: 100;
+	line-height: 10vh;
+	font-family: sans-serif;
+	text-align: center;
+}
+
+.role {
+	text-transform: uppercase;
+	font-weight: bolder;
+}
+
+.carda {
+	width: 250px;
+	height: 350px;
+	overflow: hidden;
+	position: relative;
+	margin:40px 20px;
+	border-radius: 5px;
+	border:.5px solid #FFEAC9;
+	-webkit-box-shadow: 8px 11px 9px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 8px 11px 9px 0px rgba(0,0,0,0.75);
+	box-shadow: 8px 11px 9px 0px rgba(0,0,0,0.75);
+		-webkit-box-shadow: 8px 11px 9px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 8px 11px 9px 0px rgba(0,0,0,0.75);
+	box-shadow: 8px 11px 9px 0px rgba(0,0,0,0.75);
+}
+
+.carda .main-content {
+	width: 100%;
+	height: 100%;
+}
+.carda .main-content img{
+	width: 100%;
+	height: 100%;
+}
+
+.carda .overlay-content {
+	width: 100%;
+	height: 100%;
+	/*background-color: rgba(255, 234, 201, .5);*/
+	background-color: rgba(0,0,0,.5);
+	color: #fff;
+	/*display: flex;*/
+	/*justify-content: center;*/
+	align-items: center;
+	font-size: .8em;
+	overflow: hidden;
+	position: absolute;
+	z-index: 1;
+	transition: 0.5s;
+	top: 65%;
+	left: 0%;
+}
+
+.carda:hover .overlay-content {
+	top: 20%;
+	/*transform: translateX(-100%);*/
+
+}
+
+.carda .overlay-content p {
+	text-align: center;
+	font-size: 1.0rem;
+	margin: 2rem;
+	letter-spacing: 1px;
+	/*line-height: .5rem;*/
+}
+
+.carda .name {
+	font-weight: bold;
+	color:  #FFEAC9;
+	/*line-height: 1.7rem;*/
+}
+
+
+
+/*******Media Query starts here********/
+
+
+/*******large device********/
+
+@media (min-width: 1200px) {
+	
+}
+
+
+
+
+
+/*******Medium Device********/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.carda {
+		height: 310px;
+		width: 210px;
+	}
+}
+
+
+
+
+/*******Small Device********/
+
+@media (min-width: 768px) and (max-width: 991px) {
+	
+}
+
+
+
+
+/*******Extra-Small Device********/
+
+@media (min-width: 767px) and (max-width: 576px) {
+	.carda {
+		width: 125px;
+		height: 225px;
+	}
+}
+
+
+
+@media (max-width: 575px) {
+	.carda {
+		width: 80%;
+		height: auto;
+		margin: 20px auto
+	}
+}
+/*******Media Query ends here********/
+
+
